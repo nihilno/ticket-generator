@@ -58,6 +58,7 @@ function Ticket({ id }: { id: string }) {
           alt="Your Ticket"
           fill
           className="object-contain select-none"
+          sizes="(min-width: 768px) 600px, 343px"
         />
         <div className="flex flex-col p-4 md:px-6 md:py-10">
           <div className="md:pl-22">
@@ -75,6 +76,7 @@ function Ticket({ id }: { id: string }) {
                 alt="Thats You!"
                 fill
                 className="rounded-md object-cover"
+                sizes="(min-width: 768px) 80px, 36px"
               />
             </div>
             <div className="md:space-y-2">
